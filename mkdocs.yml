@@ -1,0 +1,52 @@
+site_name: Team Jakoubek |> Technotes
+site_author: Oliver Jakoubek
+
+nav:
+  - Start: 'index.md'
+  - SQL:
+    - 'sql/'
+  - 'SQL Anywhere':
+    - 'sql-anywhere/'
+  - PostgreSQL:
+    - 'postgresql/'
+  - Go:
+    - 'go/index.md'
+    - Structs: go/struct.md
+    - Files: go/files.md
+    - Datum: go/date.md
+    - Strings: go/string.md
+    - Loops: go/loops.md
+    - Switch: go/switch.md
+    - JSON: go/json.md
+  - Xojo:
+    - 'xojo/index.md'
+    - Arrays: xojo/arrays.md
+    - Dictionaries: xojo/dictionary.md
+    - Fenster: xojo/windows.md
+    - Listbox: xojo/listbox.md
+    - Dialoge: xojo/dialog.md
+    - Folderitem: xojo/folderitem.md
+    - Loops: xojo/loops.md
+    - Switch-Statement: xojo/switch.md
+    - Datenbank: xojo/datenbank.md
+
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+  highlightjs: true
+
+copyright: Copyright &copy; 2022 <a href="https://www.jakoubek.net/?ref=tnt">Oliver Jakoubek Software & Beratung</a>
+
+plugins:
+  - search:
+      lang:
+        - de
+        - en
+
