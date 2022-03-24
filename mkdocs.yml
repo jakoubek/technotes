@@ -7,9 +7,20 @@ nav:
     - 'sql/index.md'
   - 'SQL Anywhere':
     - 'sql-anywhere/index.md'
-    - Tabellen: sql-anywhere/table.md
-    - 'System-Views und -Prozeduren': sql-anywhere/system.md
-    - Zeilengenerator: sql-anywhere/zeilengenerator.md
+    - Administration:
+      - 'Datenbank anlegen': sql-anywhere/datenbank-anlegen.md
+      - 'Datenbank starten': sql-anywhere/datenbank-starten.md
+      - 'Transaktionslog': sql-anywhere/transaktionslog.md
+      - 'Version herausfinden': sql-anywhere/version-herausfinden.md
+    - 'Backup und Wiederherstellung':
+      - 'Inkrementelle Sicherung': sql-anywhere/inkrementelle-sicherung.md
+      - 'Live-Sicherung': sql-anywhere/live-sicherung.md
+      - 'Clientseitige Sicherung': sql-anywhere/clientseitige-sicherung.md
+      - Archivsicherung: sql-anywhere/archivsicherung.md
+    - Entwicklung:
+      - Tabellen: sql-anywhere/table.md
+      - 'System-Views und -Prozeduren': sql-anywhere/system.md
+      - Zeilengenerator: sql-anywhere/zeilengenerator.md
   - PostgreSQL:
     - 'postgresql/index.md'
   - Go:
