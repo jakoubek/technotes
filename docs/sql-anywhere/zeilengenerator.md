@@ -25,7 +25,7 @@ Das bedeutet: ohne Parameter aufgerufen liefert die Prozedur eine Liste mit alle
 Typischerweise möchte man *jede* Zahl zwischen den beiden "Zahlengrenzen" bekommen. Möchte man aber beispielsweise nur jede zweite Zahl haben, kann man das über den dritten Parameter steuern:
 
 ```sql
-SELECT row_num FROM sa_rowgenerator(1, 10, 1);
+SELECT row_num FROM sa_rowgenerator(1, 10, 2);
 
 -- 1, 3, 5, 7, 9
 ```
@@ -33,7 +33,7 @@ SELECT row_num FROM sa_rowgenerator(1, 10, 1);
 Wer nur die geraden Zahlen zwischen 1 und 10 haben will, muss dann den Startwert entsprechend auf 2 setzen:
 
 ```sql
-SELECT row_num FROM sa_rowgenerator(2, 10, 1);
+SELECT row_num FROM sa_rowgenerator(2, 10, 2);
 
 -- 2, 4, 6, 8, 10
 ```
