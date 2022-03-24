@@ -8,7 +8,7 @@ Es gibt mehrere Möglichkeiten, eine SQL Anywhere-Datenbank zu erstellen:
 
 ## Datenbanken über dbinit erstellen
 
-Hier gehe ich nur auf die Erstellung über das Dienstprogramm dbinit ein.
+Hier gehe ich nur auf die Erstellung über das Dienstprogramm `dbinit` ein.
 
 ### Dienstprogramm dbinit
 

@@ -1,5 +1,6 @@
 site_name: Team Jakoubek |> Technotes
 site_author: Oliver Jakoubek
+site_url: https://technotes.jakoubek.net/
 
 nav:
   - Start: 'index.md'
@@ -13,6 +14,8 @@ nav:
       - 'Transaktionslog': sql-anywhere/transaktionslog.md
       - 'Version herausfinden': sql-anywhere/version-herausfinden.md
       - 'Datenbank entladen': sql-anywhere/datenbank-entladen.md
+      - 'Datenbank-Neuaufbau': sql-anywhere/datenbank-rebuild.md
+      - iSQL: sql-anywhere/isql.md
     - 'Backup und Wiederherstellung':
       - 'Inkrementelle Sicherung': sql-anywhere/inkrementelle-sicherung.md
       - 'Live-Sicherung': sql-anywhere/live-sicherung.md
@@ -24,6 +27,7 @@ nav:
       - Zeilengenerator: sql-anywhere/zeilengenerator.md
       - 'Verschiedene Funktionen': sql-anywhere/verschiedene-funktionen.md
       - Aktualisierungs-Timestamps: sql-anywhere/timestamps.md
+      - 'Request Logging': sql-anywhere/request-logging.md
   - PostgreSQL:
     - 'postgresql/index.md'
   - Go:

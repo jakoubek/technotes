@@ -24,6 +24,25 @@ Dieses Snippet hätte als Ergebnis in der Variable `ls_anrede` den Wert **Hallo 
 
 
 
+## Modulo
+
+Es gibt in SQL Anywhere eine SQL-Funktion für die Modulo-Berechnung. Diese kann z.B. dazu genutzt werden, um in einer Cursor-Schleife alle *x* Datensätze eine Statusmeldung auszugeben.
+
+```sql
+SELECT MOD(4, 10); --4
+```
+
+### Beispiel
+
+Wenn in einer Schleife die Variable *i* die Nummer des jeweils aktuellen Datensatzes beinhaltet, kann man so alle 100 Datensätze einen Fortschritt ausgeben:
+
+```sql
+IF MOD(i, 100) = 0 THEN
+  -- Ausgabe, z.B. Datensatz Nr. i von "Gesamtanzahl"
+END IF;
+```
+
+
 ## One row only
 
 Im Laufe der Zeit sammeln sich in einer Datenbank-Anwendung immer auch Utility-Funktionen und -Tabellen an. Eine davon, die ich immer wieder hilfreich finde: **eine Tabelle, die genau einen Datensatz beinhaltet**. Dabei muss sichergestellt werden, dass Nutzer diesen nicht löschen können und auch keine weiteren Datensätze anlegen können.

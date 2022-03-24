@@ -15,6 +15,7 @@
 - [Transaktionslog](transaktionslog)
 - [Version herausfinden](version-herausfinden)
 - [Datenbank entladen](datenbank-entladen)
+- [Datenbank-Neuaufbau](datenbank-rebuild)
 
 #### Backup und Wiederherstellung
 
@@ -31,4 +32,5 @@
 - [Zeilengenerator](zeilengenerator)
 - [Verschiedene Funktionen](verschiedene-funktionen)
 - [Aktualisierungs-Timestamps in Tabellen](timestamps)
+- [Request Logging](request-logging)
 
