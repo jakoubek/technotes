@@ -1,6 +1,10 @@
 # SAP SQL Anywhere
 
-Soweit nicht anders vermerkt, beziehen sich die Hinweise zu SAP SQL Anywhere auf die Serverversionen 16 und 17.
+**SAP SQL Anywhere** ist eine Datenbank-Server-Software von SAP (früherer Name: *Sybase SQL Anywhere*). Im Produktportfolio von SAP ist SQL Anywhere unterhalb des "großen" Datenbank-Servers *Adaptive Server Enterprise* angesiedelt.
+
+!!! info
+
+    Soweit nicht anders vermerkt, beziehen sich die Hinweise zu SAP SQL Anywhere auf die Serverversionen 16 und 17.
 
 ## Themen
 
@@ -25,4 +29,6 @@ Soweit nicht anders vermerkt, beziehen sich die Hinweise zu SAP SQL Anywhere auf
 - [Arbeiten mit Tabellen](table)
 - [Systemprozeduren und -Views](system)
 - [Zeilengenerator](zeilengenerator)
+- [Verschiedene Funktionen](verschiedene-funktionen)
+- [Aktualisierungs-Timestamps in Tabellen](timestamps)
 

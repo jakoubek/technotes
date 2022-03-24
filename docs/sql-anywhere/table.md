@@ -14,6 +14,10 @@ ALTER TABLE alter_tabellenname RENAME neuer_tabellenname;
 
 ## Tabelle löschen
 
+!!! warning "Warnung"
+
+    Achtung! Die Tabelle samt Inhalt wird sofort gelöscht und kann danach auch nicht wiederhergestellt werden (Ausnahme: aus einem Backup natürlich schon).
+
 ```sql
 DROP TABLE tabellenname;
 ```

@@ -12,6 +12,7 @@ nav:
       - 'Datenbank starten': sql-anywhere/datenbank-starten.md
       - 'Transaktionslog': sql-anywhere/transaktionslog.md
       - 'Version herausfinden': sql-anywhere/version-herausfinden.md
+      - 'Datenbank entladen': sql-anywhere/datenbank-entladen.md
     - 'Backup und Wiederherstellung':
       - 'Inkrementelle Sicherung': sql-anywhere/inkrementelle-sicherung.md
       - 'Live-Sicherung': sql-anywhere/live-sicherung.md
@@ -21,6 +22,8 @@ nav:
       - Tabellen: sql-anywhere/table.md
       - 'System-Views und -Prozeduren': sql-anywhere/system.md
       - Zeilengenerator: sql-anywhere/zeilengenerator.md
+      - 'Verschiedene Funktionen': sql-anywhere/verschiedene-funktionen.md
+      - Aktualisierungs-Timestamps: sql-anywhere/timestamps.md
   - PostgreSQL:
     - 'postgresql/index.md'
   - Go:
@@ -68,3 +71,4 @@ plugins:
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
+  - admonition
