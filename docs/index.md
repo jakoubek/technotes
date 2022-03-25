@@ -2,7 +2,7 @@
 
 ## Themen
 
-### [SQL](sql/)
+### [SQL-Datenbanken allgemein](sql/)
 
 ### [SQL Anywhere](sql-anywhere/)
 
@@ -17,6 +17,6 @@
 
 ## History
 
-- 2022-03-25 : [Impressum](/info), [Markdown](/misc/markdown) und [MkDocs](/misc/mkdocs)
+- 2022-03-25 : [Impressum](/info), [Markdown](/misc/markdown), [MkDocs](/misc/mkdocs), [SQL-Datenbanken](/sql/)
 - 2022-03-24 : SQL Anywhere
 - 2022-03-23 : Seite aufgesetzt und erste Inhalte ([Go](go/) und [Xojo](xojo/))

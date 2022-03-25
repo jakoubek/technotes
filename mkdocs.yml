@@ -6,6 +6,8 @@ nav:
   - Start: 'index.md'
   - SQL:
     - 'sql/index.md'
+    - 'Stored Procedures': sql/stored-procedures.md
+    - Import Excel in Datenbank: sql/datenbank-import-aus-excel.md
   - 'SQL Anywhere':
     - 'sql-anywhere/index.md'
     - Administration:
@@ -52,6 +54,7 @@ nav:
   - Misc:
     - 'misc/index.md'
     - MkDocs: misc/mkdocs.md
+    - Markdown: misc/markdown.md
   - 'Über':
     - 'info/index.md'
 
