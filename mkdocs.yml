@@ -28,8 +28,6 @@ nav:
       - 'Verschiedene Funktionen': sql-anywhere/verschiedene-funktionen.md
       - Aktualisierungs-Timestamps: sql-anywhere/timestamps.md
       - 'Request Logging': sql-anywhere/request-logging.md
-  - PostgreSQL:
-    - 'postgresql/index.md'
   - Go:
     - 'go/index.md'
     - Structs: go/struct.md
@@ -51,6 +49,11 @@ nav:
     - Loops: xojo/loops.md
     - Switch-Statement: xojo/switch.md
     - Datenbank: xojo/datenbank.md
+  - Misc:
+    - 'misc/index.md'
+    - MkDocs: misc/mkdocs.md
+  - 'Über':
+    - 'info/index.md'
 
 theme:
   name: material
