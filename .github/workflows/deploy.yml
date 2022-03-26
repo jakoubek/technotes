@@ -40,3 +40,15 @@ jobs:
         with:
           source: "site/*"
           target: "/home/ojsb/apps/technotes"
+
+      # Step 6 - Notify via Pushover
+      - name: Notify via Pushover
+        uses: umahmood/pushover-actions@main
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+        with:
+          status: ${{ job.status }}
+          title: 'Technotes Deployment'
+          message: 'Eine aktuelle Version der Technotes wurde bereitgestellt.'
+          url: 'https://technotes.jakoube.net/'
