@@ -51,4 +51,4 @@ jobs:
           status: ${{ job.status }}
           title: 'Technotes Deployment'
           message: 'Eine aktuelle Version der Technotes wurde bereitgestellt.'
-          url: 'https://technotes.jakoube.net/'
+          url: 'https://technotes.jakoubek.net/'
