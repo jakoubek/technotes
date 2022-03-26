@@ -1,0 +1,43 @@
+name: website deployment
+on:
+  push:
+    branches: [ main ]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      # Step 1 - Checks-out your repository
+      - name: Checkout
+        uses: actions/checkout@main
+
+      # Step 2 - Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.7'
+          architecture: 'x64'
+
+      # Step 3 - Setup dependencies
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip     # install pip
+          python3 -m pip install mkdocs            # install mkdocs 
+          python3 -m pip install mkdocs-material   # install material theme
+
+      # Step 4 - Build site
+      - name: Build site
+        run: mkdocs build
+
+      # Step 5 - Deploy via scp to Opalstack
+      - name: deploy website to technotes.jakoubek.net
+        uses: appleboy/scp-action@master
+        env:
+          HOST: ${{ secrets.HOST }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PORT: ${{ secrets.PORT }}
+          KEY: ${{ secrets.KEY }}
+        with:
+          source: "site/*"
+          target: "/home/oli/apps/technotes"
+          strip_components: 1
