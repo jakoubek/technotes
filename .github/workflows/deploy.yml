@@ -40,4 +40,3 @@ jobs:
         with:
           source: "site/*"
           target: "/home/oli/apps/technotes"
-          strip_components: 1
