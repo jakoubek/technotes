@@ -39,4 +39,4 @@ jobs:
           KEY: ${{ secrets.KEY }}
         with:
           source: "site/*"
-          target: "/home/oli/apps/technotes"
+          target: "/home/oli/tmp/technotes_deploy"
