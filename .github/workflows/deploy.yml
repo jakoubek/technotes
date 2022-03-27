@@ -40,6 +40,7 @@ jobs:
         with:
           source: "site/*"
           target: "/home/ojsb/apps/technotes"
+          strip_components: 1
 
       # Step 6 - Notify via Pushover
       - name: Notify via Pushover
