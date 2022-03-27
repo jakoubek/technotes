@@ -17,6 +17,7 @@
 
 ## History
 
+- 2022-03-26 : Deployment direkt via [Github-Action](/misc/github-action/)
 - 2022-03-25 : [Impressum](/info), [Markdown](/misc/markdown), [MkDocs](/misc/mkdocs), [SQL-Datenbanken](/sql/)
-- 2022-03-24 : SQL Anywhere
+- 2022-03-24 : [SQL Anywhere](/sql-anywhere/)
 - 2022-03-23 : Seite aufgesetzt und erste Inhalte ([Go](go/) und [Xojo](xojo/))
