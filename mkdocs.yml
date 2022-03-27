@@ -3,7 +3,9 @@ site_author: Oliver Jakoubek
 site_url: https://technotes.jakoubek.net/
 
 nav:
-  - Start: 'index.md'
+  - Start:
+    - 'index.md'
+    - Tags: tags.md
   - SQL:
     - 'sql/index.md'
     - 'Stored Procedures': sql/stored-procedures.md
@@ -61,6 +63,10 @@ nav:
 theme:
   name: material
   language: de
+  palette:
+    scheme: default
+    primary: blue
+    accent: indigo
   features:
     - navigation.tabs
     - navigation.instant
@@ -73,6 +79,8 @@ theme:
 copyright: Copyright &copy; 2022 <a href="https://www.jakoubek.net/?ref=tnt">Oliver Jakoubek Software & Beratung</a>
 
 plugins:
+  - tags:
+      tags_file: tags.md
   - search:
       lang:
         - de
@@ -82,3 +90,4 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - admonition
+  - meta
