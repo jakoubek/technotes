@@ -40,6 +40,7 @@ nav:
     - Strings: go/string.md
     - Loops: go/loops.md
     - Switch: go/switch.md
+    - Maps: go/maps.md
     - JSON: go/json.md
     - Webserver: go/webserver.md
   - Xojo:
@@ -55,6 +56,7 @@ nav:
     - Datenbank: xojo/datenbank.md
   - Misc:
     - 'misc/index.md'
+    - Texteditor: misc/texteditor.md
     - MkDocs: misc/mkdocs.md
     - Markdown: misc/markdown.md
   - 'Über':

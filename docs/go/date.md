@@ -2,9 +2,22 @@
 
 ## Datumsformat
 
+Go verwendet ein recht eigensinniges Datumsformat. Anstatt Zeichen wie *Y*, *M*, *D* usw. zu verwenden, gibt es ein Referenzdatum. Die einzelnen Werte des Referenzdatums - die sich vom Wert nicht überschneiden - können zur Festlegung des gewünschten Datums verwendet werden.
+
+### Das Referenzdatum in Go
+
 ```go
 2006-01-02 15:04:05
 ```
+
+- Jahr: 2006
+- Monat: 01
+- Tag: 02
+- Stunde: 15
+- Minute: 04
+- Sekunde: 05
+- Monatsname: January bzw. Jan
+- Wochentag: Monday bzw. Mon
 
 
 ## Datumsobjekt erzeugen
@@ -21,11 +34,46 @@ currentYear := time.Now().Format("2006")
 ```
 
 
+## ISO-Format
+
+```go
+fmt.Println(time.Now().Format("2006-01-02")
+```
+
+
 ## Zeitdauer messen
 
 ```go
 start := time.Now()
 ...
-end := time.Now()
 elapsed := time.Since(start)
+fmt.Println("execution time:", elapsed)
+```
+
+
+## Datum parsen
+
+```go
+package main
+
+import (
+  "fmt"
+  "log"
+  "time"
+)
+
+// Datumsformat
+const MY_DATE_FORMAT = "2006-01-02"
+
+func main() {
+  mein_datums_string := "2022-03-28"
+  t, err := time.Parse(MY_DATE_FORMAT, mein_datums_string)
+  if err != nil {
+    // Ausgabe, wenn der String NICHT mit dem
+    // erwarteten Datumsformat geparst werden konnte
+    log.Fatal(err)
+  }
+  // Ausgabe des erfolgreich geparsten Datums
+  fmt.Println(t)
+}
 ```
