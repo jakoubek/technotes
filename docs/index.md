@@ -18,7 +18,7 @@
 ## History
 
 - 2022-03-27 : angelegte, aber noch nicht geschriebene Artikel mit dem [Tag TODO](/tags/) kategorisiert
-- 2022-03-26 : Deployment direkt via [Github-Action](/misc/github-action/)
+- 2022-03-26 : Deployment direkt via [Github-Action](/misc/github-actions/)
 - 2022-03-25 : [Impressum](/info), [Markdown](/misc/markdown), [MkDocs](/misc/mkdocs), [SQL-Datenbanken](/sql/)
 - 2022-03-24 : [SQL Anywhere](/sql-anywhere/)
 - 2022-03-23 : Seite aufgesetzt und erste Inhalte ([Go](go/) und [Xojo](xojo/))
