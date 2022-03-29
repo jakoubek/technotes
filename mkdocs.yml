@@ -59,6 +59,7 @@ nav:
     - Texteditor: misc/texteditor.md
     - MkDocs: misc/mkdocs.md
     - Markdown: misc/markdown.md
+    - Pushover: misc/pushover.md
   - 'Über':
     - 'info/index.md'
 
