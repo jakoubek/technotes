@@ -54,6 +54,8 @@ nav:
     - Loops: xojo/loops.md
     - Switch-Statement: xojo/switch.md
     - Datenbank: xojo/datenbank.md
+  - Ninox:
+    - 'ninox/index.md'
   - Misc:
     - 'misc/index.md'
     - Texteditor: misc/texteditor.md
