@@ -56,6 +56,10 @@ nav:
     - Datenbank: xojo/datenbank.md
   - Ninox:
     - 'ninox/index.md'
+    - 'Administrator-Modus': ninox/admin.md
+    - 'Arbeiten mit Datensätzen': ninox/daten.md
+    - 'Datum und Zeit': ninox/datum-zeit.md
+    - 'Globale Funktionen': ninox/globale-funktionen.md
   - Misc:
     - 'misc/index.md'
     - Texteditor: misc/texteditor.md
