@@ -60,6 +60,7 @@ nav:
     - 'Arbeiten mit Datensätzen': ninox/daten.md
     - 'Datum und Zeit': ninox/datum-zeit.md
     - 'Globale Funktionen': ninox/globale-funktionen.md
+    - 'Text in Ninox zeilenweise verarbeiten': ninox/text-zeilenweise-verarbeiten.md
   - Misc:
     - 'misc/index.md'
     - Texteditor: misc/texteditor.md
