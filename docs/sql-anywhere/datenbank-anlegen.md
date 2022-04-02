@@ -1,3 +1,9 @@
+---
+title: SQL Anywhere-Datenbank anlegen
+section: sql-anywhere
+slug: datenbank-anlegen
+---
+
 # SQL Anywhere-Datenbank anlegen
 
 Es gibt mehrere Möglichkeiten, eine SQL Anywhere-Datenbank zu erstellen:
@@ -69,3 +75,6 @@ Datenbank "datenbankname.db" erfolgreich erstellt
 ```
 
 Die Datenbank ist jetzt erzeugt und kann [im nächsten Schritt gestartet](../datenbank-starten) werden.
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

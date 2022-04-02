@@ -1,3 +1,11 @@
+---
+title: Switch-Statement (Select Case)
+section: xojo
+slug: switch
+tags:
+  - TODO
+---
+
 # Switch-Statement (Select Case)
 
 ```vbnet

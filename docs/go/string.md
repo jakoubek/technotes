@@ -1,3 +1,9 @@
+---
+title: Strings in Go
+section: go
+slug: string
+---
+
 # Strings
 
 ## Multiline-String
@@ -43,3 +49,6 @@ sb.WriteString("und noch etwas")
 
 return sb.String()
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

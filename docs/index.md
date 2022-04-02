@@ -1,9 +1,12 @@
+---
+title: Technotes Home
+---
+
 # Technotes
 
 ## Themen
 
 [SQL-Datenbanken allgemein](sql/) &middot; [SQL Anywhere](sql-anywhere/) &middot; [PostgreSQL](postgresql/) &middot; [Go](go/) &middot; [Xojo](xojo/) &middot; [Ninox](ninox/) &middot; [Verschiedenes](misc/)
-
 
 ## History
 

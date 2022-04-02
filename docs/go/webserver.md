@@ -1,3 +1,9 @@
+---
+title: Webserver in Go
+section: go
+slug: webserver
+---
+
 # Webserver in Go
 
 
@@ -19,3 +25,6 @@ func main() {
   log.Fatal(http.ListenAndServe(":8080", nil))
 }
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

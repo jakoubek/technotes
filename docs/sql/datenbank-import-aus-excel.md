@@ -1,3 +1,9 @@
+---
+title: Import von Excel-Daten in eine Datenbank
+section: sql
+slug: datenbank-import-aus-excel
+---
+
 # Import von Excel-Daten in eine Datenbank
 
 ## Hintergrund
@@ -152,3 +158,5 @@ CREATE TRIGGER tib_auftragsimport_hole_kundenid
   FOR EACH ROW
   EXECUTE PROCEDURE trg_auftragsimport_hole_kundenid();
 ```
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

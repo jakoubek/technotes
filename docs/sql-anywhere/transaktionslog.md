@@ -1,3 +1,9 @@
+---
+title: "SQL Anywhere: Transaktionslog"
+section: sql-anywhere
+slug: transaktionslog
+---
+
 # SQL Anywhere: Transaktionslog
 
 
@@ -31,3 +37,5 @@ bietet vollständige Wiederherstellung bei Beschädigung des Transaktionslogs
 
 http://sqlanywhere.blogspot.com/2018/08/controlling-sql-anywhere-transaction.html
 
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

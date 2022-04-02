@@ -1,3 +1,9 @@
+---
+title: "SQL Anywhere: Arbeit mit Tabellen"
+section: sql-anywhere
+slug: table
+---
+
 # SQL Anywhere: Arbeit mit Tabellen
 
 
@@ -29,3 +35,5 @@ DROP TABLE tabellenname;
 ALTER TABLE tabellenname MODIFY spalte1 DEFAULT 1;
 ```
 
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

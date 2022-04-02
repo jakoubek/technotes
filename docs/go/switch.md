@@ -1,3 +1,9 @@
+---
+title: Switch-Statement in Go
+section: go
+slug: switch
+---
+
 # Switch-Statement
 
 ```go
@@ -8,3 +14,6 @@ switch modus {
         httpWebserviceTest()
     }
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

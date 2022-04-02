@@ -1,3 +1,9 @@
+---
+title: Maps in Go
+section: go
+slug: maps
+---
+
 # Maps in Go
 
 
@@ -36,3 +42,6 @@ Ausgabe:
 1 true
 0 false
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

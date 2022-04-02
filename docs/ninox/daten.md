@@ -1,3 +1,9 @@
+---
+title: "Ninox: Arbeiten mit Datensätzen"
+section: ninox
+slug: daten
+---
+
 # Ninox: Arbeiten mit Datensätzen
 
 ## Datensatz kopieren
@@ -36,3 +42,6 @@ ds.(Name := namensVariable);
 ds.(PLZ := plzVariable);
 ds.('Angelegt am' := now());
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

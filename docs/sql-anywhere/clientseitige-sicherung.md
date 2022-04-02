@@ -1,3 +1,9 @@
+---
+title: Clientseitige Sicherung einer SQL Anywhere-Datenbank
+section: sql-anywhere
+slug: clientseitige-sicherung
+---
+
 # Clientseitige Sicherung einer SQL Anywhere-Datenbank
 
 
@@ -12,3 +18,6 @@ Das `dbbackup`-Dienstprogramm baut eine Client-Verbindung zum Datenbankserver au
 ## Serverseitige Sicherung mit dbbackup
 
 Mit der Option `-s` wird der Server veranlasst, eine **serverseitige** Sicherung (`BACKUP DATABASE`) durchzuführen.
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

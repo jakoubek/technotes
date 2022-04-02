@@ -1,3 +1,9 @@
+---
+title: Arrays in Xojo
+section: xojo
+slug: arrays
+---
+
 # Arrays in Xojo
 
 
@@ -52,3 +58,4 @@ combinedNames = String.FromArray(names, ",")
 ```
 
 
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

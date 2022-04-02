@@ -1,3 +1,9 @@
+---
+title: Markdown - Plaintext-Dateien einfach formatieren
+section: misc
+slug: markdown
+---
+
 # Markdown - Plaintext-Dateien einfach formatieren
 
 
@@ -46,4 +52,6 @@ Vielfach wird als Dateiendung für Markdown-Dateien **\*.md** verwendet. Textedi
 - [Wikipedia](https://de.wikipedia.org/wiki/Markdown)
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Deutschsprachige Markdown-Einführung](https://markdown-syntax.de/Syntax/)
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}
 

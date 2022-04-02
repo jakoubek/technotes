@@ -1,3 +1,9 @@
+---
+title: Einfache Push-Benachrichtigungen mit Pushover
+section: misc
+slug: pushover
+---
+
 # Einfache Push-Benachrichtigungen mit Pushover
 
 *Pushover* ist ein Webdienst, der über eine einfache Schnittstelle (*API*) die unkomplizierte Benachrichtigung mittels Push-Nachrichten auf Mobilgeräte ermöglicht.
@@ -70,3 +76,6 @@ Oben habe ich dargestellt, dass man **immer** von *eigenen* Applications **zum**
 
 - [Pushover-Website](https://pushover.net)
 - [Informationen zur API](https://pushover.net/api)
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

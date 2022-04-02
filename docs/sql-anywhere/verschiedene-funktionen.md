@@ -1,3 +1,9 @@
+---
+title: Verschiedene SQL-Funktionen
+section: sql-anywhere
+slug: verschiedene-funktionen
+---
+
 # Verschiedene SQL-Funktionen
 
 
@@ -72,3 +78,6 @@ Die Primärschlüssel-Spalte `one_row_only` ist vom Typ `INTEGER`, hat als Stand
 .... der nicht gelöscht werden kann:
 
 Zusätzlich liegt auf der Tabelle ein `BEFORE DELETE`-Trigger, der einen Fehler wirft und die angestrebte Änderung rückgängig macht.
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

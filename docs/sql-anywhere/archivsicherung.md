@@ -1,3 +1,9 @@
+---
+title: Archivsicherung einer SQL Anywhere-Datenbank
+section: sql-anywhere
+slug: archivsicherung
+---
+
 # Archivsicherung einer SQL Anywhere-Datenbank
 
 Eine Archivsicherung sichert die komplette Datenbank in eine oder mehrere – abhängig von der Größe der Datenbank – Dateien, die alle erforderlichen Sicherungs- und Wiederherstellungsinformationen enthalten.
@@ -25,3 +31,5 @@ FROM 'D:\\TEMP\\SQLA\\Archivsicherung';
 
 Beim Wiederherstellen gibt man den Pfad zu der **neuen** Datenbankdatei an (die erzeugt werden soll). Als Quelle für die Wiederherstellung wird jetzt (im Unterschied zum Sichern) nur noch der Name des Sicherungsverzeichnisses angegeben.
 
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

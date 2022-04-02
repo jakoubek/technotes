@@ -1,3 +1,9 @@
+---
+title: Datum und Zeit in Ninox
+section: ninox
+slug: datum-zeit
+---
+
 # Datum und Zeit in Ninox
 
 ## Datums- und Zeitfunktionen in Ninox
@@ -78,3 +84,6 @@ let ytdProzentGerundet := round(ytdProzent, 2);
 ```
 
 Die Berechnung liefert einen Dezimalwert, der den bereits abgelaufenen Anteil des Jahres angibt. Möchte man einen Prozentwert anzeigen, muss man dementsprechend mit 100 multiplizieren und ggf. auf z.B. 2 Stellen runden.
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

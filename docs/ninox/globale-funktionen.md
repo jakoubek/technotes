@@ -1,3 +1,9 @@
+---
+title: Globale Funktionen
+section: ninox
+slug: globale-funktionen
+---
+
 # Globale Funktionen
 
 Ninox bietet die Möglichkeit, in einer Datenbank eine Bibliothek an globalen Funktionen anzulegen. Diese können dann aus alle anderen Skripten innerhalb der gleichen Datenbank aufgerufen werden.
@@ -26,3 +32,6 @@ function NL() do
 "
 end
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

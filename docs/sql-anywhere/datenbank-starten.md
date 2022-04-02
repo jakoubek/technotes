@@ -1,3 +1,9 @@
+---
+title: SQL Anywhere-Datenbank starten
+section: sql-anywhere
+slug: datenbank-starten
+---
+
 # SQL Anywhere-Datenbank starten
 
 Die [im ersten Schritt](../datenbank-anlegen) angelegte Datenbank existiert jetzt, aber der Server hat sie nicht gestartet.
@@ -15,3 +21,6 @@ Rechts unten im Tray (unter Windows) sieht man dann ein kleines Blitz-Symbol. Ü
 Die Datenbank ist also vom Server gestartet worden. Im Verzeichnis ist jetzt eine weitere Datei enstanden, *datenbankname.log*. Das ist das Transaktionslog.
 
 Über *Herunterfahren* (im Datenbankfenster) kann jetzt die Datenbank wieder gestoppt werden.
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

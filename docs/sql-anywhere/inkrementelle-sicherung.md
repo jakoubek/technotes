@@ -1,6 +1,12 @@
+---
+title: Inkrementelle Sicherung einer SQL Anywhere-Datenbank
+section: sql-anywhere
+slug: inkrementelle-sicherung
+---
+
 # Inkrementelle Sicherung einer SQL Anywhere-Datenbank
 
-# Inkrementelle Sicherung
+## Inkrementelle Sicherung
 
 ```sql
 BACKUP DATABASE
@@ -29,3 +35,6 @@ Inkrementelle Sicherung
 * x Sichert das vorhandene Transaktionslog, das ursprüngliche Transaktionslog wird gelöscht und ein neues wird gestartet. Verwenden Sie diese Option nicht, wenn Sie mit einer Datenbankspiegelung arbeiten.
 
 [https://sqlanywhere-forum.sap.com/questions/4760/restoring-incrementallive-backup-failure](https://sqlanywhere-forum.sap.com/questions/4760/restoring-incrementallive-backup-failure)
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

@@ -1,3 +1,9 @@
+---
+title: Dictionaries in Xojo
+section: xojo
+slug: dictionary
+---
+
 # Dictionaries in Xojo
 
 
@@ -22,3 +28,5 @@ For Each key As Variant In myDict.Keys
 Next
 ```
 
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

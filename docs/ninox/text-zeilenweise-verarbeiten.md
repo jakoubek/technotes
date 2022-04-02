@@ -1,3 +1,9 @@
+---
+title: Text in Ninox zeilenweise verarbeiten
+section: ninox
+slug: text-zeilenweise-verarbeiten
+---
+
 # Text in Ninox zeilenweise verarbeiten
 
 Einen netten Workaround, den ich immer wieder gerne verwende:
@@ -45,3 +51,6 @@ Summenfeld := summe
 Das hier gezeigte Beispiel eines *Mini-Taschenrechners* hat nur Demonstrationscharakter.
 
 Eine denkbare und von mir bereits praktisch umgesetzte Funktion ist der massenweise Import von Rechnungsdaten aus einer bestehenden Excel-Tabelle in eine Ninox-Datenbank. In der Excel-Tabelle habe ich die relevanten Spalten über eine Formel in einer Spalte zusammengeschrieben (getrennt durch ein Trennzeichen) und dann alle Zeilen dieser Spalte kopiert und in das Textfeld geschrieben. Der Schleifencode hat die einzelnen Zeilen dann anhand des Trennzeichens wieder aufgeteilt, geprüft, ob es die Rechnungsnummer bereits gibt und falls nein, die Rechnung neu angelegt.
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

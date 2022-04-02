@@ -1,3 +1,10 @@
+---
+title: Zeilengenerator in SQL Anywhere
+section: sql-anywhere
+slug: zeilengenerator
+---
+
+
 # Zeilengenerator in SQL Anywhere
 
 Ein Zeilengenerator ist ein Werkzeug, mit dem man eine Liste zwischen zwei beliebigen Zahlen erzeugen kann.
@@ -59,3 +66,6 @@ SELECT row_num FROM sa_rowgenerator(1989, 2022);
 Im Rahmen einer SQL-Abfrage (View, Prozedur) kann man diese generierte Ergebnistabelle zusammen mit weiteren Daten kombinieren, z.B. summierter Umsatz je Jahr oder Monat.
 
 Wenn man nur den Umsatz nach Monat gruppiert, kann es sein, dass bei Monaten ohne Umsatz diese Zeilen komplett fehlen. Durch die Kombination mit der generierten Liste von Monatsnummern ist sichergestellt, dass für jeden Monat eine Zeile zurückgegeben wird.
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

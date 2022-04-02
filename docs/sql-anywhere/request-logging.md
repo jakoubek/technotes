@@ -1,3 +1,9 @@
+---
+title: Request Logging
+section: sql-anywhere
+slug: request-logging
+---
+
 # Request Logging
 
 
@@ -38,3 +44,6 @@ CALL sa_server_option('RequestLogFile', 'D:\ZSP-Datenbank\Protokolle\requests.lo
 ```sql
 CALL sa_server_option('RequestLogging', 'NONE');
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

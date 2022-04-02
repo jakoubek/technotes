@@ -1,3 +1,9 @@
+---
+title: Aktualisierungs-Timestamps in Tabellen
+section: sql-anywhere
+slug: timestamps
+---
+
 # Aktualisierungs-Timestamps in Tabellen
 
 Oft besteht der Bedarf, in einer Tabelle Zeitpunkt der Anlage eines Datensatzes sowie der letzten Änderung identifizieren zu können. Der einfachste Weg ist, in einer Tabelle zwei Timestamp-Spalten anzulegen, eine für den Anlagezeitpunkt und einen für die letzte Änderung.
@@ -33,3 +39,6 @@ END;
 ```
 
 Dieser Trigger wird beim Ändern eines Datensatzes *gefeuert* (genauer: vor dem Festschreiben der Änderung) und setzt die Spalte `updated_at` auf den jetzigen Zeitpunkt.
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

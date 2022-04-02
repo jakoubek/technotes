@@ -1,3 +1,9 @@
+---
+title: Dateien und Verzeichnissein Go
+section: go
+slug: files
+---
+
 # Dateien und Verzeichnisse
 
 
@@ -53,3 +59,6 @@ f, err := os.Create("test.txt")
         return
     }
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

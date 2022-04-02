@@ -1,3 +1,9 @@
+---
+title: Listbox / DesktopListbox
+section: xojo
+slug: listbox
+---
+
 # Listbox / DesktopListbox
 
 ## Prüfen, ob überhaupt eine Zeile ausgewählt ist
@@ -48,3 +54,6 @@ Case Else
     Return False
 End Select
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

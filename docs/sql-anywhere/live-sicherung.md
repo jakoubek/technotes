@@ -1,3 +1,11 @@
+---
+title: Live-Sicherung einer SQL Anywhere-Datenbank
+section: sql-anywhere
+slug: live-sicherung
+tags:
+  - TODO
+---
+
 # Live-Sicherung einer SQL Anywhere-Datenbank
 
 
@@ -15,3 +23,5 @@ Die Live-Sicherung des dbbackup-Programms kann **vom Client nicht beendet** werd
 
 https://wiki.scn.sap.com/wiki/display/SQLANY/How+to+Create+and+Restore+a+Live+Backup
 
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

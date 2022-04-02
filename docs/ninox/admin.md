@@ -1,4 +1,7 @@
 ---
+title: Administrator-Modus
+section: ninox
+slug: admin
 tags:
   - TODO
 ---
@@ -16,3 +19,6 @@ In der Titelleiste erscheinen dann zusätzliche Links:
 ![Adminmodus - Titelleiste](img/2022-03-30-adminmodus-titelleiste.png)
 
 Über diese kann man zentrale Änderungen vornehmen, z.B. [globale Funktionen pflegen](/ninox/globale-funktionen/).
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

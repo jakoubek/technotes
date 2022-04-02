@@ -1,3 +1,9 @@
+---
+title: Structs in Go
+section: go
+slug: struct
+---
+
 # Structs
 
 
@@ -24,3 +30,5 @@ variableName := []struct{
 }
 ```
 
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

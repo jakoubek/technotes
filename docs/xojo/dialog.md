@@ -1,4 +1,10 @@
-# Dialoge
+---
+title: Dialoge in Xojo
+section: xojo
+slug: dialog
+---
+
+# Dialoge in Xojo
 
 
 ## MessageDialog
@@ -39,3 +45,5 @@ Else
 End If
 ```
 
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

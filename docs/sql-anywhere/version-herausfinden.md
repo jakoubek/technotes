@@ -1,3 +1,10 @@
+---
+title: "SQL Anywhere: Version herausfinden"
+section: sql-anywhere
+slug: version-herausfinden
+---
+
+
 # SQL Anywhere: Version herausfinden
 
 
@@ -20,3 +27,6 @@ WHERE operation IN ('INIT', 'UPGRADE', 'LAST_START')
 ```
 
 Diese Abfrage liefert für die aktuelle Datenbank die Information, mit welcher Version die Datenbank ursprünglich erzeugt worden ist (INIT) und mit welcher sie zuletzt gestartet worden ist (das ist die Version des jetzt laufenden und befragten Datenbankservers).
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

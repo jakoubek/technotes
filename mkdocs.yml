@@ -95,6 +95,7 @@ plugins:
       lang:
         - de
         - en
+  - macros
 
 markdown_extensions:
   - pymdownx.highlight

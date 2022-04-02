@@ -1,4 +1,10 @@
-# Datum und Zeit
+---
+title: Datum und Zeit in Go
+section: go
+slug: date
+---
+
+# Datum und Zeit in Go
 
 ## Datumsformat
 
@@ -77,3 +83,6 @@ func main() {
   fmt.Println(t)
 }
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

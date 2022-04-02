@@ -1,3 +1,9 @@
+---
+title: SQL Anywhere-Datenbank entladen
+section: sql-anywhere
+slug: datenbank-entladen
+---
+
 # SQL Anywhere-Datenbank entladen
 
 
@@ -17,3 +23,6 @@ dbunload
 -ii Verwendet die UNLOAD-Anweisung, um Daten aus der Datenbank zu extrahieren, und die LOAD-Anweisung in der Datei reload.sql, um die Datenbank wieder mit Daten zu füllen. Dies ist die Standardeinstellung.
 
 -ix Verwendet die UNLOAD-Anweisung, um Daten aus der Datenbank zu extrahieren, und die INPUT-Anweisung von Interactive SQL in der Datei reload.sql, um die Datenbank wieder mit Daten zu füllen.
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

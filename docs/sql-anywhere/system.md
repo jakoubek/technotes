@@ -1,3 +1,9 @@
+---
+title: System-Views und -Prozeduren
+section: sql-anywhere
+slug: system
+---
+
 # System-Views und -Prozeduren
 
 
@@ -12,3 +18,6 @@ SELECT *
 FROM   sysprocedure
 WHERE  proc_defn LIKE '%kundentabelle%';
 ```
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

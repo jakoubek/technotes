@@ -1,3 +1,9 @@
+---
+title: Stored Procedures
+section: sql
+slug: stored-procedures
+---
+
 # Stored Procedures
 
 ## Funktion vs. Prozedur
@@ -64,3 +70,4 @@ Die Prozedur befüllt dann diese temporäre Tabelle nach und nach mit Daten und/
 
 *Beispiel folgt*
 
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}
