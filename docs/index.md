@@ -10,6 +10,7 @@ title: Technotes Home
 
 ## History
 
+- 2022-04-02 : Feedback-Macro in Seiten integriert 
 - 2022-03-30 : [Ninox](/ninox/)
 - 2022-03-29 : [Pushover-Benachrichtigungen](/misc/pushover/)
 - 2022-03-27 : angelegte, aber noch nicht geschriebene Artikel mit dem [Tag TODO](/tags/) kategorisiert
