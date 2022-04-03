@@ -69,6 +69,7 @@ nav:
     - Pushover: misc/pushover.md
   - 'Über':
     - 'info/index.md'
+  - Automatisierungsberatung: https://www.smartpeopleautomate.de/?ref=tnt" target="_blank
 
 theme:
   name: material
