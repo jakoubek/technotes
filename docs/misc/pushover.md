@@ -40,13 +40,20 @@ Eine Application hat eine Kennung (den sog. *API Token*). Auch hier handelt es s
 
 ## API
 
-Pushover bietet eine ganz einfache API an. Der eigene Dienst (z.B. ein Server) schickt einen HTTP-POST-Request an einen Endpunkt mit einigen wenigen Daten:
+Pushover bietet eine ganz einfache [API](/api/) an. Der eigene Dienst (z.B. ein Server) schickt einen HTTP-POST-Request an einen Endpunkt mit einigen wenigen Daten:
 
-- `token` - das ist der API-Token der Application
-- `user` - das ist der User-Token des eigenen Kontos
+- `token` - das ist der API-Token der Application (der Absender)
+- `user` - das ist der User-Token des eigenen Kontos (der Empfänger)
 - `message` - die zu versendende Nachricht
 - `title` - einen vorangestellten Titel (optional)
 - `device` - der Name eines registrierten Endgeräts, wenn man nicht auf allen Endgeräten diese Nachricht empfangen möchten (optional)
+
+Weitere mögliche **optionale** Datenfelder sind:
+
+- `priority`
+- `device`
+- `sound`
+- `attachment`
 
 Der Endpunkt lautet: `https://api.pushover.net/1/messages.json`
 
