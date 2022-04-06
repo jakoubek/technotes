@@ -137,7 +137,7 @@ Bei einer bitweisen Verschiebung werden die einzelnen Bits um eine angegebene An
 
 Die bitweise Verschiebung wird meistens mit zwei spitzen Klammern nach rechts oder links dargestellt: `<<` bzw. `>>`
 
-Für unseren Einsatzzweck wird die Berechtigungssumme dabei um den jeweiligen Offset verschoben. Möchte man also prüfen, ob die 1. Berechtigung (Offset = 0) gesetzt ist, bleibt das Ergebnis das gleiche. Wenn man den Offset erhöht, um *höhere* Berechtigungen zu prüfen, ändert sich der Wert
+Für unseren Einsatzzweck wird die Berechtigungssumme dabei um den jeweiligen Offset verschoben. Möchte man also prüfen, ob die 1. Berechtigung (Offset = 0) gesetzt ist, bleibt das Ergebnis das gleiche. Wenn man den Offset erhöht, um *höhere* Berechtigungen zu prüfen, ändert sich der Wert entsprechend:
 
 
 ```sql
@@ -151,11 +151,11 @@ SELECT 9 >> 4;       -- 0
 Das Wert dieser ersten Operation kann jetzt mit dem bitweisen UND kombiniert werden. Als Ergebnis bekommt man 0 oder 1, je nachdem, ob das entsprechende Bit gesetzt ist.
 
 ```sql
-SELECT (9 >> 0) & 1;       -- 1
-SELECT (9 >> 1) & 1;       -- 0
-SELECT (9 >> 2) & 1;       -- 0
-SELECT (9 >> 3) & 1;       -- 1
-SELECT (9 >> 4) & 1;       -- 0
+SELECT (9 >> 0) & 1;       -- 1 -> Berechtigung 1 ist gesetzt
+SELECT (9 >> 1) & 1;       -- 0 -> Berechtigung 2 ist nicht gesetzt
+SELECT (9 >> 2) & 1;       -- 0 -> Berechtigung 3 ist nicht gesetzt
+SELECT (9 >> 3) & 1;       -- 1 -> Berechtigung 4 ist gesetzt
+SELECT (9 >> 4) & 1;       -- 0 -> Berechtigung 5 ist nicht gesetzt
 ```
 
 Wenn man spaßeshalber alle Bits in einem Rutsch prüfen und sehen möchte, kann man sich wie folgt behelfen:
