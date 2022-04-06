@@ -10,6 +10,9 @@ nav:
     - 'sql/index.md'
     - 'Stored Procedures': sql/stored-procedures.md
     - Import Excel in Datenbank: sql/datenbank-import-aus-excel.md
+  - PostgreSQL:
+    - 'postgresql/index.md'
+    - 'Bitweise Speicherung': postgresql/bitwise.md
   - 'SQL Anywhere':
     - 'sql-anywhere/index.md'
     - Administration:
