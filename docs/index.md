@@ -2,13 +2,13 @@
 title: Technotes Home
 ---
 
-# Technotes
+# Themenschwerpunkte
 
-## Themen
+Sie finden Abläufe und Dokumentationen zu folgenden Themen bzw. Programmen:
 
-[SQL-Datenbanken allgemein](sql/) &middot; [SQL Anywhere](sql-anywhere/) &middot; [PostgreSQL](postgresql/) &middot; [Go](go/) &middot; [Xojo](xojo/) &middot; [Ninox](ninox/) &middot; [Verschiedenes](misc/)
+[SQL-Datenbanken allgemein](sql/) &middot; [SAP SQL Anywhere](sql-anywhere/) &middot; [PostgreSQL](postgresql/) &middot; [Go](go/) &middot; [Xojo](xojo/) &middot; [Ninox](ninox/) &middot; [Verschiedenes](misc/)
 
-## History
+## Änderungen
 
 - 2022-04-06 : [Bitweise Speicherung von Berechtigungen in PostgreSQL](/postgresql/bitwise/)
 - 2022-04-03 : Link auf Smart People Automate gesetzt
