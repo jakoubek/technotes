@@ -72,6 +72,7 @@ nav:
     - Pushover: misc/pushover.md
   - 'Über':
     - 'info/index.md'
+  - Infodatenbanken: https://www.infodatenbanken.de/?ref=tnt" target="_blank
   - Automatisierungsberatung: https://www.smartpeopleautomate.de/?ref=tnt" target="_blank
 
 theme:
