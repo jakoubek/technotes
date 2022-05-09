@@ -25,3 +25,17 @@ Im Event Handler *Open*:
 Me.Maximize
 ```
 
+
+## Fenster per Escape schließen
+
+Auf dem Fenster im Event *KeyDown*:
+
+```vbnet
+If Asc(Key) = 27 Then
+
+  Me.Close
+
+End If
+```
+
+Hinweis: *27* ist der ASCII-Code für die Escape-Taste.
