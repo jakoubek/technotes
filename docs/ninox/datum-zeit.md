@@ -18,6 +18,12 @@ Ninox stellt für die Arbeit mit Datum und Zeit zumindest die wichtigsten Funkti
 | date(Jahr, Monat, Tag) | Datum "bauen" aus Jahreszahl, Monatszahl, Tageszahl |
 | days(Beginn, Ende)  | Anzahl der Tage zwischen zwei Datumswerten |
 
+## Heutiges Datum
+
+```javascript
+let heute := today();
+```
+
 ## Jahresanfang und -Ende des aktuellen Jahres
 
 Beim manuellen Zusammenbau eines Datums wird die Funktion `date` verwendet. Dieser übergibt man Jahreszahl, Monatszahl und Tageszahl und bekommt als Ergebnis einen Datumswert.
