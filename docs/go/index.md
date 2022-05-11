@@ -1,6 +1,6 @@
 # Go
 
-Aktuelle Version: [1.18.0](https://go.dev/doc/devel/release) (2022-03-15)
+Aktuelle Version: [1.18.2](https://go.dev/doc/devel/release) (2022-05-10)
 
 ## Themen
 
