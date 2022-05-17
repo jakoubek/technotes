@@ -34,6 +34,7 @@ nav:
       - Zeilengenerator: sql-anywhere/zeilengenerator.md
       - 'Verschiedene Funktionen': sql-anywhere/verschiedene-funktionen.md
       - Aktualisierungs-Timestamps: sql-anywhere/timestamps.md
+      - 'Datenbank-Events': sql-anywhere/datenbank-events.md
       - 'Request Logging': sql-anywhere/request-logging.md
   - Go:
     - 'go/index.md'

@@ -4,12 +4,15 @@ title: Technotes Home
 
 # Themenschwerpunkte
 
+Meine Technotes-Website ist eine Art *Wiki* mit gesammelten Informationen und Beschreibungen von Abläufen zu Programmen, sofern diese <a href="https://www.jakoubek.net/?ref=tnt" target="_blank">mir</a> interessant erscheinen bzw. ich diese Beschreibungen für meine eigene Arbeit benötigt habe.
+
 Sie finden Abläufe und Dokumentationen zu folgenden Themen bzw. Programmen:
 
 [SQL-Datenbanken allgemein](sql/) &middot; [SAP SQL Anywhere](sql-anywhere/) &middot; [PostgreSQL](postgresql/) &middot; [Go](go/) &middot; [Xojo](xojo/) &middot; [Ninox](ninox/) &middot; [Verschiedenes](misc/)
 
 ## Änderungen
 
+- 2022-05-17 : [Arbeiten mit Datenbank-Events in SQL Anywhere](/sql-anywhere/datenbank-events/)
 - 2022-04-06 : [Bitweise Speicherung von Berechtigungen in PostgreSQL](/postgresql/bitwise/)
 - 2022-04-03 : Link auf Smart People Automate gesetzt
 - 2022-04-02 : Feedback-Macro in Seiten integriert 
