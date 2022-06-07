@@ -2,7 +2,7 @@
 tags:
   - TODO
   - SaaS
-- E-Mail
+  - E-Mail
 ---
 
 # Userlist - E-Mail-Automatisierung
@@ -10,3 +10,5 @@ tags:
 > SaaS Email Automation That Understands Your Customer Data Model
 
 https://userlist.com/
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}
