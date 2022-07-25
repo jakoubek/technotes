@@ -12,6 +12,7 @@ Sie finden Abläufe und Dokumentationen zu folgenden Themen bzw. Programmen:
 
 ## Änderungen
 
+- 2022-07-25 : [Pushover-Benachrichtigung mit Ninox senden](/ninox/pushover-benachrichtigung-mit-ninox-senden/)
 - 2022-05-17 : [Arbeiten mit Datenbank-Events in SQL Anywhere](/sql-anywhere/datenbank-events/)
 - 2022-04-06 : [Bitweise Speicherung von Berechtigungen in PostgreSQL](/postgresql/bitwise/)
 - 2022-04-03 : Link auf Smart People Automate gesetzt
