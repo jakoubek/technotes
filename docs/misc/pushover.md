@@ -2,6 +2,8 @@
 title: Einfache Push-Benachrichtigungen mit Pushover
 section: misc
 slug: pushover
+tags:
+  - Pushover
 ---
 
 # Einfache Push-Benachrichtigungen mit Pushover
@@ -79,11 +81,12 @@ Noch ein Hinweis zum Zusammenhang von eigenen Pushover-Konto (*User-Key*) und de
 Oben habe ich dargestellt, dass man **immer** von *eigenen* Applications **zum** *eigenen* Empfänger sendet. Das dürfte auch der Normalfall sein. Es ist jedoch problemlos möglich, eine Nachricht auch an den einen *anderen* Benutzer zu senden. Dafür benötigt man lediglich den User-Key dieses Benutzers.
 
 
-## Informationen
+## Weitere Informationen
 
 - [Pushover-Website](https://pushover.net)
 - [Informationen zur API](https://pushover.net/api)
 - [Go wrapper for the Pushover API](https://github.com/gregdel/pushover)
+- [Pushover-Benachrichtigung mit Ninox senden](/ninox/pushover-benachrichtigung-mit-ninox-senden/)
 
 
 {{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

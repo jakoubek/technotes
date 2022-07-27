@@ -9,7 +9,7 @@ tags:
   - API
 ---
 
-[Pushover](https://pushover.net/) ist ein leichtgewichtiger und kostengünstiger Benachrichtigungsdienst. Über Pushover können Sie schnell und einfach Push-Nachrichten aufs Mobiltelefon senden. Dies eignet sich beispielsweise für die Benachrichtigung bei Serverausfällen oder eiligen Kundenkontakten.
+[Pushover](/misc/pushover/) ist ein leichtgewichtiger und kostengünstiger Benachrichtigungsdienst. Über Pushover können Sie schnell und einfach Push-Nachrichten aufs Mobiltelefon senden. Dies eignet sich beispielsweise für die Benachrichtigung bei Serverausfällen oder eiligen Kundenkontakten.
 
 Selbstverständlich können Sie auch von Ihrer [Ninox-Datenbank](/ninox) aus Pushover-Nachrichten versenden. Ich zeige Ihnen hier, wie einfach das geht.
 
