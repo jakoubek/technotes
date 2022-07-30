@@ -66,6 +66,7 @@ nav:
     - 'Globale Funktionen': ninox/globale-funktionen.md
     - 'Text in Ninox zeilenweise verarbeiten': ninox/text-zeilenweise-verarbeiten.md
     - 'Settings-Tabelle': ninox/settings-tabelle.md
+    - Zeilengenerator: ninox/zeilengenerator.md
     - 'Pushover-Benachrichtigung mit Ninox senden': ninox/pushover-benachrichtigung-mit-ninox-senden.md
   - Misc:
     - 'misc/index.md'
