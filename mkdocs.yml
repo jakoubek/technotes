@@ -112,6 +112,7 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - meta
+  - attr_list
 
 extra:
   analytics:
