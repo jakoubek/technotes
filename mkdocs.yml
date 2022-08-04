@@ -61,6 +61,7 @@ nav:
   - Ninox:
     - 'ninox/index.md'
     - 'Administrator-Modus': ninox/admin.md
+    - 'Skript-Programmierung': ninox/skripting.md
     - 'Arbeiten mit Datensätzen': ninox/daten.md
     - 'Datum und Zeit': ninox/datum-zeit.md
     - 'Globale Funktionen': ninox/globale-funktionen.md

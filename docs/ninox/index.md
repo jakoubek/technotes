@@ -7,7 +7,7 @@
 
 [![](img/2022-08-04-ninox-website-screenshot.png)](https://ninox.com/de){target=_blank}
 
-Sie finden hier Tipps zur Programmierung mit den Skriptfähigkeiten von Ninox:
+Sie finden hier Tipps zur Programmierung mit den Skriptfähigkeiten von Ninox, z.B:
 
 - [Arbeiten und Rechnen mit Datum und Uhrzeit](./datum-zeit/)
 - [Globale Funktionen](./globale-funktionen/)
@@ -18,4 +18,7 @@ Sie finden hier Tipps zur Programmierung mit den Skriptfähigkeiten von Ninox:
 ## Informationen
 
 - [Ninox-Website](https://ninox.com/de){target=_blank}
+- Ninox-Benutzerforum: [deutsch](https://forum.ninox.de/){target=_blank}, [englisch](https://forum.ninox.com/){target=_blank}
+- [Ninox-Dokumentation](https://docs.ninox.com/de){target=_blank}
+- [alphabetisches Verzeichnis der eingebauten Skript-Funktionen](https://docs.ninox.com/en/script/functions){target=_blank} und [nach Kategorien geordnet](https://docs.ninox.com/en/script/functions-categorized){target=_blank}
 

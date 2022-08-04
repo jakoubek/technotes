@@ -12,6 +12,7 @@ Sie finden Abläufe und Dokumentationen zu folgenden Themen bzw. Programmen:
 
 ## Änderungen
 
+- 2022-08-04 : [Skript-Programmierung in Ninox](/ninox/skripting/)
 - 2022-07-29 : [Settings-Tabellen in Ninox](/ninox/settings-tabelle/)
 - 2022-07-27 : [Artikel über MkDocs](/misc/mkdocs/) und [Pushover](/tags/#pushover) erweitert
 - 2022-07-25 : [Pushover-Benachrichtigung mit Ninox senden](/ninox/pushover-benachrichtigung-mit-ninox-senden/)
