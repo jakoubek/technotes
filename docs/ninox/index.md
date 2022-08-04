@@ -9,6 +9,7 @@
 
 Sie finden hier Tipps zur Programmierung mit den Skriptfähigkeiten von Ninox, z.B:
 
+- [Einstieg in die Skript-Programmierung in Ninox](./skripting/)
 - [Arbeiten und Rechnen mit Datum und Uhrzeit](./datum-zeit/)
 - [Globale Funktionen](./globale-funktionen/)
 - [Benutzerdefinierter CSV-Import](./csv-import/)
