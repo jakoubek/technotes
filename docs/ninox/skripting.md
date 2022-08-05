@@ -29,3 +29,6 @@ Klickt man auf die Zeile mit dem Skript, dann öffnet sich endlich der eigentlic
 
 
 ![](img/2022-08-04-ninox-skripteditor.png)
+
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}

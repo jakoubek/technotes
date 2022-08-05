@@ -12,6 +12,7 @@ Sie finden Abläufe und Dokumentationen zu folgenden Themen bzw. Programmen:
 
 ## Änderungen
 
+- 2022-08-05 : [Benutzerdefinierter CSV-Import in Ninox](/ninox/csv-import/)
 - 2022-08-04 : [Skript-Programmierung in Ninox](/ninox/skripting/)
 - 2022-07-29 : [Settings-Tabellen in Ninox](/ninox/settings-tabelle/)
 - 2022-07-27 : [Artikel über MkDocs](/misc/mkdocs/) und [Pushover](/tags/#pushover) erweitert
