@@ -1,4 +1,6 @@
 ---
+title: Ninox - webbasierte Workflow-Software
+description: Sie finden hier Tipps zur Programmierung mit den Skriptfähigkeiten von Ninox, dem Low-Code-Geschäftsprozess-Tool
 ---
 
 # Ninox - webbasierte Workflow-Software

@@ -1,5 +1,6 @@
 ---
-title: Benutzerdefinierter CSV-Import
+title: Benutzerdefinierter CSV-Import in Ninox
+description: So kann man in Ninox eine CSV-Datei per Skript verarbeiten und importieren
 section: ninox
 slug: csv-import
 tags:

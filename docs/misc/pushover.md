@@ -1,5 +1,6 @@
 ---
 title: Einfache Push-Benachrichtigungen mit Pushover
+description: So einfach versenden Sie von Ninox aus Push-Benachrichtigungen über den Dienst Pushover
 section: misc
 slug: pushover
 tags:

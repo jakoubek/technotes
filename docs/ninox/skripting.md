@@ -1,5 +1,6 @@
 ---
 title: Skript-Programmierung in Ninox
+description: So einfach ist der Einstieg in die Skript-Programmierung in Ninox, dem Low-Code-Geschäftsprozess-Tool
 section: ninox
 slug: skripting
 ---
