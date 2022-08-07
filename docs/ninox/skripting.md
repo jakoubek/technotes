@@ -11,7 +11,7 @@ Zwar ist es möglich, in Ninox auch ohne Programmierung, mit rein grafischer Ges
 
 ## Generelles Vorgehen
 
-Skripte werden oft genutzt und gestartet, indem man diese hinter einen [Button](./layout-elemente/) legt. Dazu muss man zuerst in den [Admin-Modus wechseln](./admin/). Danach kann man einen Button hinzufügen:
+Skripte werden oft genutzt und gestartet, indem man diese hinter einen [Button](../layout-elemente/) legt. Dazu muss man zuerst in den [Admin-Modus wechseln](../administrator-modus/). Danach kann man einen Button hinzufügen:
 
 ![](img/2022-08-04-ninox-button.png)
 

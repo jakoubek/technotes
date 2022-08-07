@@ -1,9 +1,8 @@
 ---
 title: Administrator-Modus
+description: Wie man in Ninox in den Administrator-Modus wechselt
 section: ninox
 slug: admin
-tags:
-  - TODO
 ---
 
 # Administrator-Modus
