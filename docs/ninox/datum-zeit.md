@@ -24,6 +24,15 @@ Ninox stellt für die Arbeit mit Datum und Zeit zumindest die wichtigsten Funkti
 let heute := today();
 ```
 
+### Das aktuelle Jahr
+
+Das aktuelle Jahr lässt sich direkt über die Funktion `year` aus dem heutigen Datum ableiten:
+
+```javascript
+let heutigesJahr := year(today());
+```
+
+
 ## Jahresanfang und -Ende des aktuellen Jahres
 
 Beim manuellen Zusammenbau eines Datums wird die Funktion `date` verwendet. Dieser übergibt man Jahreszahl, Monatszahl und Tageszahl und bekommt als Ergebnis einen Datumswert.
