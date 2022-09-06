@@ -17,6 +17,7 @@ Ninox stellt für die Arbeit mit Datum und Zeit zumindest die wichtigsten Funkti
 | day(Datum)  | Tageszahl des Datums |
 | date(Jahr, Monat, Tag) | Datum "bauen" aus Jahreszahl, Monatszahl, Tageszahl |
 | days(Beginn, Ende)  | Anzahl der Tage zwischen zwei Datumswerten |
+| age(Datum) | Alter in Jahren, von einem Datum zu "heute" |
 
 ## Heutiges Datum
 
@@ -30,6 +31,16 @@ Das aktuelle Jahr lässt sich direkt über die Funktion `year` aus dem heutigen 
 
 ```javascript
 let heutigesJahr := year(today());
+```
+
+## Alter einer Person in Jahren
+
+Die eingebaute Funktion `age` ermittelt das Alter in Jahren - oder eben die Differenz in Jahren, wenn es sich nicht um ein Geburtsdatum, sondern ein anderes Datum in der Vergangenheit handelt. Wichtig: ist wird immer das *heutige Datum* als Vergleichswert verwendet.
+
+Hinweis: Der jeweilige Tag unterm Jahr wird dabei berücksichtigt. Also: ist heute der 1. August, dann wird bei einem Geburtsdatum, das vor dem 1. August liegt, das aktuelle Jahr mitgezählt. Ist das Geburtsdatum nach dem 1. August, wird das Jahr noch nicht gezählt.
+
+```javascript
+let alterInJahren := age(Geburtsdatum);
 ```
 
 
