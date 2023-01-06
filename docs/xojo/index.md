@@ -1,6 +1,6 @@
 # Xojo
 
-aktuellste Xojo-Version: [Xojo 2022 Release 2](https://documentation.xojo.com/versions/2022r2/resources/release_notes/2022r2.html) (2022-07-25)
+aktuellste Xojo-Version: **Xojo 2022 Release 4.1** (2022-12-20)
 
 ## Themen
 

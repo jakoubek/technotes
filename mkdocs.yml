@@ -98,7 +98,7 @@ theme:
     - navigation.top
   highlightjs: true
 
-copyright: Copyright &copy; 2022 <a href="https://www.jakoubek.net/?ref=tnt">Oliver Jakoubek Software & Beratung</a>
+copyright: Copyright &copy; 2022&mdash;2023 <a href="https://www.jakoubek.net/?ref=tnt">Oliver Jakoubek Software & Beratung</a>
 
 plugins:
   - tags:
