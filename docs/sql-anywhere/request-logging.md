@@ -25,7 +25,7 @@ NONE = keine Protokollierung
 ## Request Logging einschalten
 
 ```sql
--- RL einschalten für die genannten Elemete
+-- RL einschalten für die genannten Elemente
 CALL sa_server_option('RequestLogging', 'SQL+PROCEDURES+BLOCKS');
 
 -- nur Statements für diese Verbindungsnummer protokollieren
@@ -51,5 +51,8 @@ Request Logging lässt sich ausschalten, indem man die Serveroption *RequestLogg
 CALL sa_server_option('RequestLogging', 'NONE');
 ```
 
+## notwendige Privilegien
+
+Der Datenbank-Benutzer muss das Systemprivileg `MANAGE PROFILING` besitzen, um die für Request Logging relevanten Serveroptionen setzen zu können.
 
 {{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}
