@@ -10,9 +10,11 @@ tags:
 
 SQL Anywhere bringt von Haus aus Datenbank-Ereignisse (englisch: *events*) mit. Diese Events lassen sich *zeitgesteuert* aufrufen (wie Cron-Jobs) oder anhand bestimmter Ereignisse *triggern*.
 
-Nachfolgend beschreibe ich ausführlich, wie man ein Ereignis anlegt, einplant und prüfen kann, dass es gelaufen ist.
+Für viele Anwendungsfälle ist es deshalb nicht mehr notwendig, Jobs von außen (Cronjob, Windows-Aufgabenplanung) anzustoßen. Statt dessen kann der Datenbank-Server selbstständig zu einem definierten Zeitpunkt Wartungsskripte o.ä. durchführen.
 
 ## Walkthrough
+
+Nachfolgend beschreibe ich ausführlich, wie man ein Ereignis anlegt, einplant und prüfen kann, dass es gelaufen ist.
 
 ### Datenbank anlegen
 
