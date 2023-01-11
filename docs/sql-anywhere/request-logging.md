@@ -6,6 +6,8 @@ slug: request-logging
 
 # Request Logging
 
+Mittels *Request Logging* lässt sich untersuchen, welche SQL-Statements oder Prozeduraufrufe ein Clientprogramm an eine SQL Anywhere-Datenbank sendet.
+
 
 ## aktueller Stand prüfen
 
@@ -23,12 +25,14 @@ NONE = keine Protokollierung
 ## Request Logging einschalten
 
 ```sql
-CALL sa_server_option('RequestLogging', 'SQL');
+-- RL einschalten für die genannten Elemete
 CALL sa_server_option('RequestLogging', 'SQL+PROCEDURES+BLOCKS');
 
+-- nur Statements für diese Verbindungsnummer protokollieren
 CALL sa_server_option('RequestFilterConn', '8' );
 
-CALL sa_server_option('RequestLogFile', 'D:\ZSP-Datenbank\Protokolle\requests.log');
+-- Statements in diese Datei protokollieren
+CALL sa_server_option('RequestLogFile', 'D:\Database\requests.log');
 ```
 
 
@@ -36,10 +40,12 @@ CALL sa_server_option('RequestLogFile', 'D:\ZSP-Datenbank\Protokolle\requests.lo
 
 ```sql
 CALL sa_server_option('RequestLogging', 'SQL+PROCEDURES+BLOCKS');
-CALL sa_server_option('RequestLogFile', 'D:\ZSP-Datenbank\Protokolle\requests.log');
+CALL sa_server_option('RequestLogFile', 'D:\Database\requests.log');
 ```
 
 ## ausschalten
+
+Request Logging lässt sich ausschalten, indem man die Serveroption *RequestLogging* auf `NONE` setzt.
 
 ```sql
 CALL sa_server_option('RequestLogging', 'NONE');
