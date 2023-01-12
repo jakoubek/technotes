@@ -6,7 +6,7 @@ slug: backup-dateikopie
 
 ## Hintergrund
 
-SQL Anywhere ist eine sog. *Self-contained database*. Das bedeutet, dass sich die Daten **einer** Datenbank in mindestens **einer Datei** befinden (bzw. zwei Dateien, mit [Transaktionslog](../transaktionslog/)).
+SQL Anywhere ist eine sog. *Self-contained database*. Das bedeutet, dass sich die Daten **einer** Datenbank in mindestens **einer Datei** befinden (bzw. zwei Dateien, mit [Transaktionslog](../transaktionslog/)) und nicht &mdash; wie bei anderen Datenbanken &mdash; in einer von der Datenbank-Software verwalteten Verzeichnisstruktur.
 
 ## Backup durch Dateikopie
 
@@ -20,3 +20,6 @@ Eine SQL Anywhere-Datenbank lässt sich deshalb am einfachsten dadurch sichern, 
 Da man dazu den Datenbank-Server (die Software, nicht den Rechner oder Host) herunterfahren muss, ist die Sicherung durch Dateikopie kein taugliches Konzept für die Sicherung einer produktiv genutzten Datenbank.
 
 Hier stelle ich ein [minimales Backup-Konzept](../minimales-backup/) für eine dauerhaft laufende Datenbank vor.
+
+{{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}
+
