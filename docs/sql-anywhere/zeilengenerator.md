@@ -60,7 +60,7 @@ Alle Jahre zwischen 1989 und 2022:
 SELECT row_num FROM sa_rowgenerator(1989, 2022);
 ```
 
-Die Kombination aus beidem: für jedes Jahr zwischen 2019 und 2022 möchte man für jeden Monat einen Datensatz bekommen. Dazu muss man beide Ergebnismengen `JOIN`en. Hier im Beispiel geht das am einfachsten über eine sog. `CTE` (besser bekannt als `WITH`-Statement). Alternativ geht auch der eher konventionelle Weg über zwei Subqueries.
+Die Kombination aus beidem: für *jedes Jahr* zwischen 2019 und 2022 möchte man *für jeden Monat* einen Datensatz bekommen. Dazu muss man beide Ergebnismengen `JOIN`en. Hier im Beispiel geht das am einfachsten über eine sog. `CTE` (besser bekannt als `WITH`-Statement). Alternativ geht auch der eher konventionelle Weg über zwei Subqueries.
 
 ```sql
 WITH jahre(jahr) AS (
@@ -77,7 +77,7 @@ FROM   jahre
 ORDER BY jahre.jahr, monate.monat;
 ```
 
-Das Ergebnis wird eine zweispaltige Tabelle mit allen Monaten von 2019-2022 sein.
+Das Ergebnis wird eine zweispaltige Tabelle mit allen Monaten von 2019-2022 sein (insgesamt also 4 x 12 = 48 Datensätze).
 
 | jahr | monat |
 | :----|-----: |
@@ -102,6 +102,7 @@ Am Beispiel einer solchen fiktiven Datenbank listen wir je Monat die Summe der U
 SELECT  monat,
         SUM(umsatz) AS summe_umsatz
 FROM    umsatztabelle
+GROUP BY monat
 ORDER BY monat;
 ```
 
@@ -128,6 +129,7 @@ FROM    (SELECT row_num FROM sa_rowgenerator(1, 12)) AS monate(monat)
             SELECT  monat,
                     SUM(umsatz) AS summe_umsatz
             FROM    umsatztabelle
+            GROUP BY monat
         ) AS umsatz(monat, summe_umsatz)
         ON umsatz.monat = monate.monat
 ORDER BY monate.monat
