@@ -6,11 +6,11 @@ slug: minimales-backup
 
 ## Hintergrund
 
-Für eine Datenbank, die in einem Unternehmen wirklich produktiv genutzt wird, muss es ein Backup-Konzept geben. Ein einfaches [Backup per Dateikopie] ist für eine dauerhaft laufende Datenbank aber nicht möglich.
+Für eine Datenbank, die in einem Unternehmen wirklich produktiv genutzt wird, muss es ein Backup-Konzept geben. Ein einfaches [Backup per Dateikopie](../backup-dateikopie/) ist für eine dauerhaft laufende Datenbank aber nicht sinnvoll.
 
 ## Was sichert man?
 
-Eine Datenbank besteht aus zwei Bestandteilen: den Dateien für den eigentlichen Datenbestand und dem Transaktionslog, in das fortlaufend die Änderungen am Datenbestand protokolliert werden.
+Eine Datenbank besteht aus zwei Bestandteilen: den Dateien für den eigentlichen Datenbestand und dem [Transaktionslog](../transaktionslog/), in das fortlaufend die Änderungen am Datenbestand protokolliert werden.
 
 !!! warning "Achtung"
 
@@ -23,13 +23,15 @@ Der Datenbank-Server selbst hingegen kann das machen - er hat die Dateien ja ber
 
 ### Vollbackup
 
-Sichert man die komplette Datenbank, spricht man von einem sog. *Vollbackup*. Dies verursacht - abhängig vom Umfang der Datenbank - entsprechende Last auf dem Server. Deshalb wird man versuchen, das Vollbackup zeitlich in die Nacht bzw. in Phasen der geringen Datenbank-Nutzung zu verlegen.
+Sichert man die komplette Datenbank, spricht man von einem sog. *Vollbackup*. Dies verursacht - abhängig vom Umfang der Datenbank - entsprechende Last auf dem Server. Deshalb wird man versuchen, das Vollbackup zeitlich in die Nacht bzw. in Phasen geringerer Datenbank-Nutzung zu verlegen.
 
-Das Ergebnis eines Vollbackups ist eine Kopie aller Datenbank-Dateien an einem anderen Ort (Partition, Netzlaufwerk). Diese Kopien befinden sich **nicht im Zugriff** des Datenbank-Servers (sind also nicht geöffnet) und können deshalb von dort weggesichert werden.
+Das Ergebnis eines Vollbackups ist eine vollständige Kopie aller Datenbank-Dateien an einem anderen Ort (Partition, Netzlaufwerk). Diese Kopien befinden sich **nicht im Zugriff** des Datenbank-Servers (sind also nicht geöffnet) und können deshalb von dort weggesichert werden (z.B. durch eine Datensicherungssoftware).
 
 ### Backup des Transaktionslogs
 
 Schneller lässt sich das Transaktionslog sichern. Dieses ist im Regelfall kleiner als die eigentliche Datenbank (zumindest wenn es regelmäßig bereinigt worden ist). Im Transaktionslog sind jedoch nur die *Änderungen am Datenbestand* protokolliert.
+
+Man benötigt deshalb zusätzlich zur Sicherung des Transaktionslogs noch ein "passendes" Vollbackup, um die Datenbank wiederherstellen zu können.
 
 ## Backup-Konzept
 
