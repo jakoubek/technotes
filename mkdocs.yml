@@ -24,6 +24,8 @@ nav:
       - 'Datenbank-Neuaufbau': sql-anywhere/datenbank-rebuild.md
       - iSQL: sql-anywhere/isql.md
     - 'Backup und Wiederherstellung':
+      - 'Backup durch Dateikopie': sql-anywhere/backup-dateikopie.md
+      - 'Minimale Backup-Strategie': sql-anywhere/minimales-backup.md
       - 'Inkrementelle Sicherung': sql-anywhere/inkrementelle-sicherung.md
       - 'Live-Sicherung': sql-anywhere/live-sicherung.md
       - 'Clientseitige Sicherung': sql-anywhere/clientseitige-sicherung.md
