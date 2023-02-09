@@ -15,6 +15,7 @@ nav:
     - 'Bitweise Speicherung': postgresql/bitwise.md
   - 'SQL Anywhere':
     - 'sql-anywhere/index.md'
+    - 'Aktuellste Versionen': 'sql-anywhere/aktuelle-versionen.md'
     - Administration:
       - 'Datenbank anlegen': sql-anywhere/datenbank-anlegen.md
       - 'Datenbank starten': sql-anywhere/datenbank-starten.md

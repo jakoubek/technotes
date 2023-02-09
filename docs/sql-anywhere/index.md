@@ -8,6 +8,8 @@
 
 ## Themen
 
+- [Welche Software-Versionen sind aktuell?](aktuelle-versionen)
+
 ### Administration
 
 - [Datenbank anlegen](datenbank-anlegen)
