@@ -14,7 +14,7 @@ MkDocs ist eine in Python geschriebenes Programm, mit dem man aus Textdateien ei
 MkDocs benötigt Python und `pip`, das Standard-Paketinstallationstool von Python.
 
 ```shell
-pip install MkDocs
+pip install mkdocs
 ```
 
 
