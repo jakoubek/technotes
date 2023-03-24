@@ -25,10 +25,10 @@ Go verwendet ein recht eigensinniges Datumsformat. Anstatt Zeichen wie *Y*, *M*,
 - Monatsname: January bzw. Jan
 - Wochentag: Monday bzw. Mon
 
-Das bedeutet: möchte man ein Datum im *alten* deutschen Format ausgeben, verwendet man (anstatt DD.MM.YYYY) "02.01.2006". Beispiel:
+Das bedeutet: möchte man ein Datum im *alten* deutschen Format ausgeben, verwendet man (anstatt DD.MM.YYYY) "02.01.2006". Dieses Beispiel gibt das heutige Datum aus:
 
 ```go
-time.Now().Format("2006-01-02")
+time.Now().Format("02.01.2006") // 24.03.2023
 ```
 
 
