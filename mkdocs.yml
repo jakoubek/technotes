@@ -23,6 +23,7 @@ nav:
       - 'Version herausfinden': sql-anywhere/version-herausfinden.md
       - 'Datenbank entladen': sql-anywhere/datenbank-entladen.md
       - 'Datenbank-Neuaufbau': sql-anywhere/datenbank-rebuild.md
+      - 'Lizenzierung': sql-anywhere/lizenzierung.md
       - iSQL: sql-anywhere/isql.md
     - 'Backup und Wiederherstellung':
       - 'Backup durch Dateikopie': sql-anywhere/backup-dateikopie.md
