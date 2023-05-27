@@ -40,7 +40,7 @@ jobs:
           KEY: ${{ secrets.KEY }}
         with:
           source: "site/*"
-          target: "/home/ojsb/apps/technotes"
+          target: "/home/ploi/technotes.jakoubek.net"
           strip_components: 1
 
       # Step 6 - Notify via Pushover
