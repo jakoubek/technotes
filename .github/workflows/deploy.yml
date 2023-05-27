@@ -33,12 +33,11 @@ jobs:
       # Step 5 - Deploy via scp to Opalstack
       - name: deploy website to technotes.jakoubek.net
         uses: appleboy/scp-action@master
-        env:
+        with:
           HOST: ${{ secrets.HOST }}
           USERNAME: ${{ secrets.USERNAME }}
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.KEY }}
-        with:
           source: "site/*"
           target: "/home/ploi/technotes.jakoubek.net"
           strip_components: 1
