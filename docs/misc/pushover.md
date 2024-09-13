@@ -73,6 +73,27 @@ Nachrichten mit Priorität -2 generieren überhaupt keine Benachrichtigung und l
 
 Gerne nutze ich das optionale Feld `ttl`. Dieses steht für die Anzahl an Sekunden, nach denen die empfangene Nachricht gelöscht werden soll. Damit kann man sicherstellen, dass nicht übermäßig wichtige Nachrichten nach einer gewissen Zeit automatisch vom Endgerät entfernt werden. Gibt man als Inhalt von `ttl` den Wert `86400` an, dann verschwindet die Nachricht nach 24 Stunden.
 
+### Beispiel (cURL)
+
+Der einfachste Weg, einen HTTP-POST-Request abzusenden, ist das Werkzeug *cURL*. Dieses ist für die meisten Betriebssysteme verfügbar.
+
+```bash
+curl -s \
+  --form-string "token=APP_TOKEN" \
+  --form-string "user=USER_KEY" \
+  --form-string "message=Diese Nachricht kommt über Pushover!" \
+  --form-string "title=Optionaler Titel" \
+  --form-string "ttl=86400" \
+  --form-string "priority=-1" \
+  https://api.pushover.net/1/messages.json
+```
+
+Diese Nachricht wird dann so auf dem Mobilgerät empfangen:
+
+![Empfangene Pushover-Nachricht](img/2024-09-13-pushover.jpg)
+
+Den Namen *Servant* und das Logo kann man im Pushover-Dashboard für die jeweilige *Application* vergeben.
+
 
 ## Weitere Versandmöglichkeiten
 
