@@ -4,8 +4,6 @@
 ## Sitemap
 
 Bookstack hat *keine* eingebaute Funktion, um eine XML-Sitemap (die man bei Suchmaschinen einreichen kann) zu erzeugen.
-
-https://notes.beautifulmachines.de/link/57#bkmrk-im-api-scripts-githu
  
 Im `api-scripts`-Github-Repository von Bookstack findet sich ein PHP-Skript. Mit diesem kann man eine XML-Sitemap für eine Bookstack-Instanz generieren.
 
