@@ -80,6 +80,7 @@ nav:
     - MkDocs: misc/mkdocs.md
     - Markdown: misc/markdown.md
     - Pushover: misc/pushover.md
+    - Bookstack: bookstack/index.md
   - 'Über':
     - 'info/index.md'
   - Infodatenbanken: https://www.infodatenbanken.de/?ref=tnt" target="_blank
@@ -116,6 +117,7 @@ plugins:
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.caret
   - admonition
   - meta
   - attr_list

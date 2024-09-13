@@ -39,6 +39,18 @@ myDate := time.Now()
 ```
 
 
+## Datumsobjekt verändern
+
+Zum Verändern eines Datums (z.B. Tage dazuzählen oder abziehen) gibt es die Funktion *AddDate*. Diese hat drei Parameter *years*, *months* und *days*. Entsprechend werden Jahre, Monate oder Tage hinzugezählt oder abgezogen, falls die Werte negativ sind.
+
+```go
+// 5 Tage addieren
+mydate := time.Now().Add(0, 0, 5)
+
+// 1 Monate abziehen
+mydate := time.Now().Add(0, -1, 0)
+```
+
 ## Aktuelles Jahr
 
 ```go

@@ -9,6 +9,8 @@ slug: struct
 
 ## Anonymous structs
 
+Ein anonymer Struct ist ein Struct, der ^^nicht^^ zuerst als Typ definiert und dann einer neuen Variable zugewiesen wird. Statt dessen werden Definition und Variableninstanziierung inkl. Wertzuweisung in einem Schritt gemacht.
+
 ```go
 variableName := struct{
     code string

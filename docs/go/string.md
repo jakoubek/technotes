@@ -50,5 +50,8 @@ sb.WriteString("und noch etwas")
 return sb.String()
 ```
 
+Die Funktion `WriteString` hängt keinen Zeilenwechsel (Newline) an. Man muss den Zeilenwechsel bewusst angeben, ansonsten werden die Strings einfach aneinandergehängt.
+
+
 
 {{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}
