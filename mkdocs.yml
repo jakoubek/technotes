@@ -51,6 +51,7 @@ nav:
     - Maps: go/maps.md
     - JSON: go/json.md
     - Webserver: go/webserver.md
+    - Magefile: go/magefile.md
   - Xojo:
     - 'xojo/index.md'
     - Arrays: xojo/arrays.md

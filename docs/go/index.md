@@ -1,6 +1,7 @@
 # Go
 
-Aktuelle Version: [1.23.0](https://go.dev/doc/devel/release) (2024-08-13)
+!!! note ""
+    Aktuelle Version: [1.23.0](https://go.dev/doc/devel/release) (2024-08-13)
 
 ## Themen
 
