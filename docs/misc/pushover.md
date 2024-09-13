@@ -57,8 +57,22 @@ Weitere mögliche **optionale** Datenfelder sind:
 - `device`
 - `sound`
 - `attachment`
+- `ttl`
 
 Der Endpunkt lautet: `https://api.pushover.net/1/messages.json`
+
+### Priority
+
+Das Feld Priority kann die Werte -2, -1, 0, 1, 2 annehmen, wobei 0 der Standardwert ist.
+
+Je höher die Priorität, desto aufdringlicher die Benachrichtigung. Wenn also der eigene Server nicht mehr läuft, kann man mit der Priorität 2 sicherstellen, dass die Nachricht bewusst von Hand bestätigt werden muss.
+
+Nachrichten mit Priorität -2 generieren überhaupt keine Benachrichtigung und lassen sich somit für die Zustellung von einfachen "Ereignis-Hinweisen" nutzen, die man vielleicht nur hin und wieder einsehen möchte.
+
+### TTL (time-to-live)
+
+Gerne nutze ich das optionale Feld `ttl`. Dieses steht für die Anzahl an Sekunden, nach denen die empfangene Nachricht gelöscht werden soll. Damit kann man sicherstellen, dass nicht übermäßig wichtige Nachrichten nach einer gewissen Zeit automatisch vom Endgerät entfernt werden. Gibt man als Inhalt von `ttl` den Wert `86400` an, dann verschwindet die Nachricht nach 24 Stunden.
+
 
 ## Weitere Versandmöglichkeiten
 
