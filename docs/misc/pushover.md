@@ -5,6 +5,7 @@ section: misc
 slug: pushover
 tags:
   - Pushover
+  - API
 ---
 
 # Einfache Push-Benachrichtigungen mit Pushover
