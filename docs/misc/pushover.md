@@ -44,22 +44,25 @@ Eine Application hat eine Kennung (den sog. *API Token*). Auch hier handelt es s
 
 ## API
 
-Pushover bietet eine ganz einfache [API](/api/) an. Der eigene Dienst (z.B. ein Server) schickt einen HTTP-POST-Request an einen Endpunkt mit einigen wenigen Daten:
+Pushover bietet eine ganz einfache [API](/api/) an. Der eigene Dienst (z.B. ein Server) schickt einen HTTP-POST-Request an einen Endpunkt mit einigen wenigen Daten.
+
+Der Endpunkt lautet: `https://api.pushover.net/1/messages.json`
+
+Zwingend notwendige Datenfelder:
 
 - `token` - das ist der API-Token der Application (der Absender)
 - `user` - das ist der User-Token des eigenen Kontos (der Empfänger)
 - `message` - die zu versendende Nachricht
-- `title` - einen vorangestellten Titel (optional)
-- `device` - der Name eines registrierten Endgeräts, wenn man nicht auf allen Endgeräten diese Nachricht empfangen möchten (optional)
 
 Weitere mögliche **optionale** Datenfelder sind:
 
-- `priority`
-- `sound`
-- `attachment`
-- `ttl`
+- `title` - einen vorangestellten Titel (optional)
+- `device` - der Name eines registrierten Endgeräts, wenn man nicht auf allen Endgeräten diese Nachricht empfangen möchten (optional)
+- `priority` - Priorität der Nachricht; steuert die Intensität der Benachrichtigung auf dem Endgerät
+- `sound` - welcher der eingebauten Sounds soll verwendet werden
+- `attachment` - man kann eine Grafik in die Benachrichtigung einbetten
+- `ttl` - Zeitdauer in Sekunden, nach denen diese Nachricht gelöscht werden soll
 
-Der Endpunkt lautet: `https://api.pushover.net/1/messages.json`
 
 ### Priority
 
