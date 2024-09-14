@@ -9,7 +9,7 @@ tags:
 
 # Einfache Push-Benachrichtigungen mit Pushover
 
-*Pushover* ist ein Webdienst, der über eine einfache Schnittstelle (*API*) die unkomplizierte Benachrichtigung mittels Push-Nachrichten auf Mobilgeräte ermöglicht.
+*Pushover* ist ein Webdienst, der über eine einfache Schnittstelle (*API*) die unkomplizierte Benachrichtigung mittels Push-Nachrichten auf Mobilgeräte ermöglicht. Es gibt Apps für Android und iOS.
 
 ## Preis
 
@@ -54,7 +54,6 @@ Pushover bietet eine ganz einfache [API](/api/) an. Der eigene Dienst (z.B. ein 
 Weitere mögliche **optionale** Datenfelder sind:
 
 - `priority`
-- `device`
 - `sound`
 - `attachment`
 - `ttl`
@@ -123,6 +122,8 @@ Oben habe ich dargestellt, dass man **immer** von *eigenen* Applications **zum**
 - [Informationen zur API](https://pushover.net/api)
 - [Go wrapper for the Pushover API](https://github.com/gregdel/pushover)
 - [Pushover-Benachrichtigung mit Ninox senden](/ninox/pushover-benachrichtigung-mit-ninox-senden/)
+- [Pushover für Android](https://pushover.net/clients/android)
+- [Pushover für iOS](https://pushover.net/clients/ios)
 
 
 {{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}
