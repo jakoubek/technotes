@@ -1,3 +1,10 @@
+---
+title: Bookstack
+section: bookstack
+slug: index
+---
+
+
 # Bookstack
 
 
@@ -33,7 +40,7 @@ Da das PHP-Skript die Sitemap-Datei immer im gleichen Verzeichnis erzeugt, versc
 
 ### Informationen
 
+* [Konfiguration von Bookstack](konfiguration)
 * [Bookstack-Sitemap-Skript](https://github.com/BookStackApp/api-scripts/tree/main/php-generate-sitemap)
-
 
 {{ feedback(page.meta.title, page.meta.section, page.meta.slug) }}
