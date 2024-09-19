@@ -52,6 +52,8 @@ nav:
     - JSON: go/json.md
     - Webserver: go/webserver.md
     - Magefile: go/magefile.md
+  - REI3:
+    - 'rei3/index.md'
   - Xojo:
     - 'xojo/index.md'
     - Arrays: xojo/arrays.md
