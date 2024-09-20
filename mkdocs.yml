@@ -12,6 +12,7 @@ nav:
     - Import Excel in Datenbank: sql/datenbank-import-aus-excel.md
   - PostgreSQL:
     - 'postgresql/index.md'
+    - 'Export': postgresql/export.md
     - 'Bitweise Speicherung': postgresql/bitwise.md
   - 'SQL Anywhere':
     - 'sql-anywhere/index.md'
