@@ -12,6 +12,7 @@ Sie finden Abläufe und Dokumentationen zu folgenden Themen bzw. Programmen:
 
 ## Änderungen
 
+- 2024-09-20 : [Export von PostgreSQL mit Hilfe von DBeaver](/postgresql/export)
 - 2024-09-19 : [REI3, die offene Low-Code-Plattform](/rei3/)
 - 2024-09-13 : Einträge von meinem [Notes-Bookstack](https://notes.beautifulmachines.de/){target="_blank"} migriert ([Bluesky](/misc/bluesky-mit-eigener-domain), [Bookstack](/bookstack/)) oder erweitert ([Go](/go/))
 - 2022-08-05 : [Benutzerdefinierter CSV-Import in Ninox](/ninox/csv-import/)
